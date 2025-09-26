@@ -1,0 +1,180 @@
+[
+  {
+    "id":4171787601,
+    "name": "Cu Chi Tunnels",
+    "location": { "lat":11.1432528, "lng": 106.4632107 },
+    "description": "A somber reminder of the realities of war, but it also showcased the incredible strength and determination of the Vietnamese people.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/VietnamCuChiTunnels.jpg/375px-VietnamCuChiTunnels.jpg"
+  },
+  {
+    "id": 459271667,
+    "name": "Bui Vien Street",
+    "location": { "lat":10.767351, "lng": 106.6913087 },
+    "description": "Bui Vien Walking Street, a nightlife tourist attraction in Saigon, is an ideal venue for Western guests and young Saigonese to come to eat and hang out every time they go down the street.",
+    "photo_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/61/5c/71/20190415-150829-largejpg.jpg?w=1200&h=-1&s=1"
+  },
+  {
+    "id": 804073951,
+    "name": "Bitexco Financial Tower",
+    "location": { "lat":10.7717064 , "lng": 106.701801 },
+    "description": "The view from this sky deck is amazing. I love this city and enjoying the views from this building is a definite must.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/DJI_0550-HDR-Pano_Bitexco_Financial_Tower.jpg/500px-DJI_0550-HDR-Pano_Bitexco_Financial_Tower.jpg"
+  },
+  {
+    "id": 341504312,
+    "name": "Nguyen Hue Street",
+    "location": { "lat":10.7731407, "lng":106.7040777 },
+    "description": "A large park, very nice and bustling place in the evening. At night the city is very cool, walking here is great.",
+    "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Nguyen_Hue_Street_2020.jpg/500px-Nguyen_Hue_Street_2020.jpg"
+  },
+  {
+    "id":1267152786,
+    "name": "Ho Chi Minh Square",
+    "location": { "lat":10.7727385, "lng": 106.6958367 },
+    "description": "A walk in the evening through the square is refreshing. The lotus in the centre of the square is so beautifully done.",
+    "photo_url": "https://media.holidify.com/images/cmsuploads/compressed/attr_123447_20241015141247.jpg"
+  },
+  {
+    "id": 684089070,
+    "name": "Pham Ngu Lao Street",
+    "location": { "lat":10.7684861, "lng":106.6901595 },
+    "description": "You have plenty of restaurants, bars, agencies to plan further trips, and nightclubs to hang out in the evening.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npGGk4nO80E6e6DKBssM8o6lCSm-oJxOT-kwuGd8vQVfVOEFa94B8tlmtExZKRhB51HodLR3ddjMNb7-18v6Pt9cy7MkHW7qxRGSWO_2OWiUVVvfiQm-TgeYri-RLzJcMFTqC-T2w=w408-h441-k-no"
+  },
+  {
+    "id": 118690569,
+    "name": "Đường Đồng Khởi",
+    "location": { "lat": 10.7760489, "lng":106.7005266 },
+    "description": "During the period of the Vietnam War, it was named 'Tu Do Street', meaning 'Freedom Street'.",
+    "photo_url": "/images/placeholder.jpg"
+  },
+  {
+    "id": 12416551486,
+    "name": "Binh Quoi Village",
+    "location": { "lat": 10.8329031, "lng":106.7318075 },
+    "description": "The Binh Quoi village cost about 110,000VND to get there using Grab car service and 130,000VND to get back.",
+    "photo_url": "/images/placeholder.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Temple of Ten Thousand Buddhas (Chua Van Phat)",
+    "location": { "lat": 0, "lng": 0 },
+    "description": "This temple was truly a gem. It has several floors and as you go up, it just becomes more beautiful.",
+    "photo_url": "/images/placeholder.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Đài tưởng niệm Bồ tát Thích Quảng Đức",
+    "location": { "lat":10.7754659, "lng": 106.6841965 },
+    "description": "A memorial to the monk who set himself on fire to protest the persecution of Buddhists in Vietnam.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrk7AKJcGBfkeopQlWOKoQQO55wx-YMpZty20zhjH_X-KL0H5riBFfUMXY9cBDAnGI8MZ3mNM3jj7RSxbZ5yqiO8zDjABfKF_WJCD5uTpJ9FL939X5NbUPZqWsUxsot_64tg_E=w408-h408-k-no"
+  },
+  {
+    "id": 11,
+    "name": "Saigon River",
+    "location": { "lat":11.210341, "lng":105.8754819 },
+    "description": "In the city the traffic around the river is non-stop so it's not the most peaceful place to walk along.",
+    "photo_url": "/images/placeholder.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Ben Dinh Tunnels",
+    "location": { "lat":11.1042937, "lng": 106.4533131 },
+    "description": "The shooting range was awful, but it also added to the ambiance and experience of being inside the tunnel.",
+    "photo_url": "/images/placeholder.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Notre Dame Cathedral of Saigon",
+    "location": { "lat": 10.7797855, "lng":106.6990189 },
+    "description": "1880s Catholic cathedral built with French bricks & featuring 58m-tall Romanesque bell towers.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npnVTTL8s_A5ARRGxEuJ4DdAhoeBU1NCX2QKkSkg41qhomWFy9W1GJkwSQJOzI8FgJcJ6heHqpYObk5CzhEPQRVvslSs2dkC1TA0n-0U3ymL0qDdO8hsj6PmRugz1WTxpWMZQPPjg=w408-h611-k-no"
+  },
+  {
+    "id": 14,
+    "name": "Saigon Skydeck",
+    "location": { "lat": 0, "lng": 0 },
+    "description": "Nice place to visit, not so expensive. Only minus was that the actual skydeck was under repair.",
+    "photo_url": "/images/placeholder.jpg"
+  },
+  
+{
+    "id": 6813546204,
+    "name": "Takashimaya",
+    "location": { "lat":10.7733738, "lng":106.6982912 },
+    "description": "Airy, posh shopping center with designer boutiques, gourmet eateries & a glamorous vibe.",
+    "photo_url": "https://lh3.googleusercontent.com/p/AF1QipMsipTA-3WBB1YfziPItUnbEc2cIC7xS2ETavJN=w408-h261-k-no"
+},
+
+{
+    "id": 6813546205,
+    "name": "Saigon Opera House",
+    "location": { "lat":10.7760489, "lng":106.7005266 },
+    "description": "A beautiful French colonial building that hosts a variety of performances including opera, ballet, and traditional Vietnamese music.",
+    "photo_url": "https://th.bing.com/th/id/OIP._iwid0U41Ofebl4d_agx2QHaE6?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3"
+},
+
+
+{
+    "id": 1272651080,
+    "name": "Jade Emperor Pagoda",
+    "location": { "lat":10.7919963, "lng":106.6956042 },
+    "description": "A Taoist pagoda known for its intricate carvings and statues, dedicated to the Jade Emperor, the supreme Taoist god.",
+    "photo_url": "https://th.bing.com/th/id/R.d7274923d14add80638f37faad2a13f0?rik=k0EFsWVGwyJv4w&pid=ImgRaw&r=0"
+},
+
+
+{
+    "id": 39514793,
+    "name": "Saigon Central Post Office",
+    "location": { "lat":10.779696, "lng":106.6995245 },
+    "description": "A grand colonial-era post office with beautiful architecture, designed by Gustave Eiffel, and still in operation today.",
+    "photo_url": "https://tse3.mm.bing.net/th/id/OIP.atg4SIwm1gSELV60kozCLAHaFA?rs=1&pid=ImgDetMain&o=7&rm=3"
+},
+
+
+{
+    "id": 802105071,
+    "name": "Ho Chi Minh City Museum",
+    "location": { "lat":10.7759656, "lng":106.6970727 },
+    "description": "A museum showcasing the history and culture of Ho Chi Minh City, housed in a beautiful colonial building.",
+    "photo_url": "https://th.bing.com/th/id/OLC.Zke5wOJLzcfrJg480x360?w=334&h=200&c=8&rs=1&qlt=90&o=6&cdv=1&dpr=1.6&pid=Local"
+},
+
+
+{
+    "id": 802105072,
+    "name": "Fine Arts Museum",
+    "location": { "lat":10.7791, "lng":106.6953 },
+    "description": "A museum featuring a diverse collection of Vietnamese art, including contemporary works and traditional pieces.",
+    "photo_url": "https://th.bing.com/th/id/OIP.CEJYkX4f0bX4v8Z5mXH6mAHaE8?w=273&h=180&c=7&r=0&o=5&dpr=1.6&pid=1.7"
+},
+
+{
+    "id": 290134801,  
+    "name": "Ton Duc Thang University",
+    "location": { "lat":10.7319314, "lng":106.6993525 },
+    "description": "A museum that provides insights into Vietnam's rich history and cultural heritage, with artifacts from various periods.",
+    "photo_url": "https://tse4.mm.bing.net/th/id/OIP.1lzNmjsyta5xnZTDhWI8cQHaE3?rs=1&pid=ImgDetMain&o=7&rm=3"
+},
+
+{
+    "id": 290134801,
+    "name": "Lotte Mart",
+    "location": { "lat":10.7414581, "lng":106.701908 },
+    "description": "A museum that provides insights into Vietnam's rich history and cultural heritage, with artifacts from various periods.",
+    "photo_url": "https://tse3.mm.bing.net/th/id/OIP.qxQ8TlM9410CrAPiO6LTHAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3"
+
+},
+
+{
+    "id": 39598493,
+    "name": "Independence Palace",
+    "location": { "lat":10.779696, "lng":106.6995245 },
+    "description": "Historical building of the Vietnam War era, with tours of government offices, war rooms & artifacts.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqlRfHHuUfKxn4kwA5GpZxPOKm9F4eLARtx5_0YiQpBF6JWA-A7XuJ_S_IL5_1RC6v5LJfUZ_5ntZBZ7J3-Qvoz_jXIEOSh79RSS5AMFoLmWgZQ-4kc4O4nfAe8taz4MCeR4uY=w408-h306-k-no"
+}
+
+
+
+]
