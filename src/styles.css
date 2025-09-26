@@ -1,0 +1,451 @@
+/* === Global Styles & Variables === */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  /* Light Theme */
+  --bg-primary-light: #FFFFFF;
+  --bg-secondary-light: #F7F7F7;
+  --text-primary-light: #111111;
+  --text-secondary-light: #666666;
+  --border-light: #EAEAEA;
+  --shadow-light: rgba(0, 0, 0, 0.05);
+
+  /* Dark Theme */
+  --bg-primary-dark: #121212;
+  --bg-secondary-dark: #1E1E1E;
+  --text-primary-dark: #FFFFFF;
+  --text-secondary-dark: #AAAAAA;
+  --border-dark: #2D2D2D;
+  --shadow-dark: rgba(0, 0, 0, 0.25);
+
+  /* Universal Variables */
+  --accent-color: #007AFF;
+  --transition-smooth: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* Apply theme variables */
+:root {
+  --bg-primary: var(--bg-primary-light);
+  --bg-secondary: var(--bg-secondary-light);
+  --text-primary: var(--text-primary-light);
+  --text-secondary: var(--text-secondary-light);
+  --border-color: var(--border-light);
+  --shadow-color: var(--shadow-light);
+}
+
+:root[data-theme='dark'] {
+  --bg-primary: var(--bg-primary-dark);
+  --bg-secondary: var(--bg-secondary-dark);
+  --text-primary: var(--text-primary-dark);
+  --text-secondary: var(--text-secondary-dark);
+  --border-color: var(--border-dark);
+  --shadow-color: var(--shadow-dark);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-sans);
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  overflow: hidden;
+}
+
+/* === Main Layout === */
+.app-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.map-view {
+  width: 100%;
+  height: 100%;
+  background: var(--bg-secondary);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* === Modern Navigation Bar === */
+.modern-nav {
+  position: absolute;
+  top: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 95%;
+  max-width: 1200px;
+  z-index: 1000;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.389);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px var(--shadow-color);
+  border: 1px solid var(--border-color);
+  transition: var(--transition-smooth);
+}
+
+:root[data-theme='dark'] .modern-nav {
+    background: rgba(28, 28, 30, 0.75);
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-left, .nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.nav-logo { height:50px; }
+.nav-links-desktop { display: none; }
+
+.nav-link {
+  color: var(--text-primary);
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  padding: 0.25rem 0;
+}
+.nav-link:hover { color: var(--text-secondary); }
+
+/* === Search & Autocomplete === */
+.search-form { position: relative; }
+.search-container-modern {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.search-icon-modern {
+  position: absolute;
+  left: 1rem;
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  pointer-events: none;
+}
+.search-input-modern {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 0.75rem;
+  padding: 0.6rem 1rem 0.6rem 2.75rem;
+  font-size: 0.95rem;
+  width: 280px;
+  color: var(--text-primary);
+  transition: all 0.3s ease;
+}
+.search-input-modern:focus {
+  outline: none;
+  border-color: var(--accent-color);
+  background-color: var(--bg-primary);
+  box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.15);
+}
+.autocomplete-suggestions {
+  position: absolute;
+  top: 120%;
+  left: 0;
+  right: 0;
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 0.75rem;
+  box-shadow: 0 8px 30px var(--shadow-color);
+  z-index: 1000;
+  max-height: 300px;
+  overflow-y: auto;
+}
+.suggestion-item {
+  padding: 12px 15px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--border-color);
+  font-size: 14px;
+  color: var(--text-primary);
+}
+.suggestion-item:last-child { border-bottom: none; }
+.suggestion-item:hover { background-color: var(--bg-secondary); }
+
+/* === POI Sidebar === */
+.poi-sidebar {
+  position: absolute;
+  top: 7rem;
+  right: 1.5rem;
+  width: 350px;
+  height: calc(100vh - 8.5rem);
+  overflow-y: auto;
+  z-index: 900;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 0.5rem;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.poi-sidebar::-webkit-scrollbar { display: none; }
+
+/* === POI Card Styles === */
+/* === POI Card Styles (Corrected) === */
+.poi-card {
+  background: var(--bg-primary);
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px var(--shadow-color);
+  border: 1px solid var(--border-color);
+  cursor: pointer;
+  transition: var(--transition-smooth);
+  display: flex;
+  flex-direction: column; /* This is correct */
+  overflow: hidden; /* This is crucial to respect the border radius */
+  width: 100%; /* Ensure the card takes up the full width of its container */
+}
+
+.poi-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+:root[data-theme='dark'] .poi-card:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+.poi-image-container {
+  width: 100%;
+  height: 140px;
+  background-color: var(--bg-secondary);
+  flex-shrink: 0; /* Prevents the image container from shrinking */
+}
+
+.poi-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.poi-card:hover .poi-image {
+  transform: scale(1.08);
+}
+
+.poi-image-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-secondary);
+  font-size: 2.5rem;
+}
+
+.poi-info {
+  padding: 1rem 1.25rem;
+  flex-grow: 1; /* Allows this section to fill available space */
+  display: flex;
+  flex-direction: column;
+}
+
+.poi-info h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  color: var(--text-primary);
+}
+
+.poi-info .poi-distance {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 1rem; /* Add space before the buttons */
+}
+
+.poi-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: auto; /* This pushes the buttons to the bottom of the card */
+  padding-top: 0.5rem;
+}
+
+.poi-button {
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  padding: 0.6rem 1rem;
+  border-radius: 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+  flex-grow: 1;
+  text-align: center;
+}
+
+.poi-button:hover {
+  background: var(--border-color);
+  border-color: var(--text-secondary);
+}
+
+
+/* === User Icon & Dropdown === */
+.user-icon-wrapper {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  z-index: 1200;
+}
+.user-icon-btn { background: none; border: none; cursor: pointer; }
+.user-avatar {
+  font-size: 2.4rem;
+  color: snow;
+height:60px;
+width: 60px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+.user-icon-btn:hover .user-avatar {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+.user-dropdown {
+  position: absolute;
+  right: 0;
+  top: 120%;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 20px var(--shadow-color);
+  padding: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+}
+.user-dropdown a {
+  padding: 0.6rem 1rem;
+  color: var(--text-primary);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+.user-dropdown a:hover { background: var(--bg-secondary); }
+
+/* === Map Marker Styles === */
+.user-location-marker {
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+.poi-photo-marker {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  background-position: center;
+  border: 3px solid var(--bg-primary);
+  box-shadow: 0 4px 12px var(--shadow-color);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+.poi-photo-marker:hover {
+  transform: scale(1.15);
+  z-index: 1000 !important;
+}
+.poi-photo-marker .poi-marker-name {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--text-primary);
+  color: var(--bg-primary);
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+.poi-photo-marker:hover .poi-marker-name {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* === General Page & Settings Styles === */
+.page-container {
+  padding: 8rem 2rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  height: 100vh;
+}
+.page-container h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 1rem;
+}
+.page-container p {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+}
+.settings-section { margin-top: 2.5rem; }
+.settings-section h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.theme-toggle-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 1rem;
+}
+.theme-toggle-button {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background-color: var(--text-primary);
+  color: var(--bg-primary);
+  border: none;
+  border-radius: 0.75rem;
+  padding: 0.6rem 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+.theme-toggle-button:hover {
+  opacity: 0.8;
+  transform: translateY(-2px);
+}
+.theme-toggle-button svg { font-size: 1.2rem; }
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .hamburger-menu-modern { display: none; }
+  .nav-links-desktop { display: flex; gap: 1.5rem; }
+}
+
+
+/* === Recommendation Card Styles === */
+.recommendation-container {
+  position: absolute;
+  bottom: 1.5rem;
+  /* --- CHANGE: Positioned to the right --- */
+  right: 1.5rem; 
+  width: 95%;
+  max-width: 350px;
+  z-index: 950;
+  
+  /* This keeps the animation clean */
+  perspective: 1000px; 
+}
+
