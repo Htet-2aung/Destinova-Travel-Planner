@@ -173,6 +173,34 @@
     "location": { "lat":10.779696, "lng":106.6995245 },
     "description": "Historical building of the Vietnam War era, with tours of government offices, war rooms & artifacts.",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqlRfHHuUfKxn4kwA5GpZxPOKm9F4eLARtx5_0YiQpBF6JWA-A7XuJ_S_IL5_1RC6v5LJfUZ_5ntZBZ7J3-Qvoz_jXIEOSh79RSS5AMFoLmWgZQ-4kc4O4nfAe8taz4MCeR4uY=w408-h306-k-no"
+},
+
+
+
+
+{
+    "id": 556279359,
+    "name": "Shwedagon Pagoda",
+    "location": { "lat":16.7983776, "lng":96.1469824 },
+    "description": "Historic 99-m-high Buddhist temple plated in gold, offering tours, a visitor center & an exhibit.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npsFgzkNSRsP1pqaEZ4P3jObhXtHzas99C4jIw6euM4GYhp4bsUfNXJKRbo0JIOQFfRU5t0e7dPKngRM2Xx4G1d9lGqnd2enJWr9sC5khVY-LKDE5RTW0q2qIW8KlBpiSKViOG3ww=w408-h544-k-no"
+
+},
+
+{
+    "id": 131745510,
+    "name": "Sule Pagoda",
+    "location": { "lat":16.7744755, "lng":96.1588159 },
+    "description": "Gilded, historic Buddhist pagoda with an ornate exterior & multiple shrines & statues.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqbaj0ruSBxOZttwWuX82H08wxgWxn9Uizmo4znnbcpyzwdRpPGa3aDEJAJMZ_Ky8xadi-_feUU7wmLf2Gti5XaLjkMhAU4U0oNqVeNQBuaKN7R6OildPHZpMTSfoDXBal2Iq54=w408-h306-k-no" 
+},
+
+{
+    "id": 423,
+    "name": "Kandawgyi Lake",
+    "location": { "lat":16.7967076, "lng":96.1588347 },
+    "description": "150-acre colonial-era reservoir with a park, paths for exercise & views of the Shwedagon Pagoda.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqFo9IeMD0uXzP2IN50RUzdIWJqmAwFupZCATlX5JJ-xPdIWxnEYfZCMrtcHCFIU9DS9RAtwPkN0U0TSo7sDGsn_wbu7rdDgCiSBz-Us_6dOyKXXYIZX2pAqDGIicvpooxYavSh=w408-h306-k-no"
 }
 
 
