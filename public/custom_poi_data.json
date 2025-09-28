@@ -1,3 +1,4 @@
+
 [
   {
     "id":4171787601,
@@ -151,7 +152,7 @@
 },
 
 {
-    "id": 290134801,  
+    "id": 290134801,
     "name": "Ton Duc Thang University",
     "location": { "lat":10.7319314, "lng":106.6993525 },
     "description": "A museum that provides insights into Vietnam's rich history and cultural heritage, with artifacts from various periods.",
@@ -167,13 +168,8 @@
 
 },
 
-{
-    "id": 39598493,
-    "name": "Independence Palace",
-    "location": { "lat":10.779696, "lng":106.6995245 },
-    "description": "Historical building of the Vietnam War era, with tours of government offices, war rooms & artifacts.",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqlRfHHuUfKxn4kwA5GpZxPOKm9F4eLARtx5_0YiQpBF6JWA-A7XuJ_S_IL5_1RC6v5LJfUZ_5ntZBZ7J3-Qvoz_jXIEOSh79RSS5AMFoLmWgZQ-4kc4O4nfAe8taz4MCeR4uY=w408-h306-k-no"
-},
+
+
 
 
 
@@ -201,8 +197,212 @@
     "location": { "lat":16.7967076, "lng":96.1588347 },
     "description": "150-acre colonial-era reservoir with a park, paths for exercise & views of the Shwedagon Pagoda.",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqFo9IeMD0uXzP2IN50RUzdIWJqmAwFupZCATlX5JJ-xPdIWxnEYfZCMrtcHCFIU9DS9RAtwPkN0U0TSo7sDGsn_wbu7rdDgCiSBz-Us_6dOyKXXYIZX2pAqDGIicvpooxYavSh=w408-h306-k-no"
+},
+
+{
+  "id": 23395611,
+    "name": "Bogyoke Aung San Market",
+    "location": { "lat":16.780345, "lng":96.1529858 },
+    "description": "Lively bazaar in a multistory colonial building, with vendors selling antiques, jewelry, art & food.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npp9PJCDERANqyCBAQlzR6sZrNRzu6ltw6_JRrtFyDLVVtHzhRyQqAflf2G4-9NFM6mPeStoq1OJS6FK15tljIHQN-LebE-VBTctkuJmwTMCi5SEYDiTlw-LQLAJS8cohbnJ2XK=w408-h306-k-no"
+},
+
+{
+    "id": 180605242,
+    "name": "Botahtaung Pagoda",
+    "location": { "lat":16.7683101, "lng":96.1694112 },
+    "description": "The Botataung pagoda on the banks of the Bago river in downtown Yangon is one of the city’s most highly revered temples. ",
+    "photo_url": "https://th.bing.com/th?id=OLC.l6DC7etoK%2ft68w480x360&w=323&h=200&c=8&rs=1&qlt=90&o=6&cdv=1&dpr=1.5&pid=Local"
+},
+
+{
+    "id": 4743058358,
+    "name": "Yangon Chinatown",
+    "location": { "lat":16.7733311, "lng":96.1496928 },
+    "description": "Chinatown in Yangon is primarily known for its streets lined with vendors and food stalls that offer an array of street foods, local delicacies, and Chinese cuisine.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npjsDvwNM89HWac1LhdQQTh6jkS-3v-N8L0qU6lwDaxcMb6ArHV1cB9Un1amImi_Bx3VE5okpugC7PQqWGquOc5S18d9j6u40LOU-EJ10CV9ru4nFcftTMWH5riBv_GlGF25bKU=w408-h599-k-no"
+},
+
+{
+    "id": 129485365,
+    "name": "Maha Bandula Park",
+    "location": { "lat":16.7731267, "lng":96.1569017 },
+    "description": "The Maha Bandula Park or Maha Bandula Garden is a public park, located in downtown Yangon, Burma. ",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4novqxzIA1dLk5MatDKij0Wh5JhJJrbAfLi7Sc2KJ4YwfI7U2e7nwOYcOxdLYJS2pcJyhPTEwBlB_EaLv0u5bfJ3fRdAdhVu2-_BVxWsb0CwNACtbILVuk7mULJ7yw8nbaqf88_H=w408-h305-k-no"
+},
+
+{
+    "id": 377827695,
+    "name": "Yangon Zoo",
+    "location": { "lat":16.7944133, "lng":96.1564464 },
+    "description": "Sizable zoological garden featuring mammals, birds & reptiles & a diverse array of plant species.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4no5dUpT8IlEY4yxuCGdfMy8lU3l8ymfvdG9PNTRQ-1-ec0vcVrrBluaoe_z8lf9U5WxjUjWKO_6e7_PepmQr9sQeOfeU3w60OtX2fe7VV_vRVjdOkFD2tf-5voqoMGwvwHOOChv=w408-h306-k-no"
+},
+
+{
+    "id": 2641584,
+    "name": "Inya Lake",
+    "location": { "lat":16.838893, "lng":96.1242608 },
+    "description": "Tranquil, romantic lake with parks on the banks & a sailing club for sunset cruises & rowing.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqPspUUZx0ZNLWBxNd-M3PMWK7RfJlClipU1V_zElFrwtF7Scnn5KXvZbj6YSeBo6qjfPr9VWiiy7SPCfgNMMA5PTUeaMP_nGFPY1qUr7ujRje5IoOgJviZRxcYwjsWNUGNr5mONw=w408-h306-k-no"
+},
+
+{
+    "id": 932904169,
+    "name": "Mandalay Palace",
+    "location": { "lat":21.9928825, "lng":96.0939775 },
+    "description": "The Mandalay Palace, also known as the Mya Nan San Kyaw, is the last royal palace of the Burmese monarchy.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr1Mjs21uoaRuM2mM8PFnY8-YhobC0VUJJ7MmdQsJs1TONuxoF7R3SZjQjnsmNN1P1XcfVuMIFP1hDg5mfEnPhso507wgJNArts8QfnaHEDy1j1UCvohu3m2i_fkRs_erX-ihBg=w408-h306-k-no"
+},
+
+{
+    "id": 1150541101,
+    "name": "Kuthodaw Pagoda",
+    "location": { "lat":22.0046417, "lng":96.1084345 },
+    "description": "A Buddhist stupa in Mandalay, Myanmar, known for housing the world's largest book, consisting of 729 marble slabs inscribed with Buddhist teachings.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npCUbdYhcaSpvApluji5vLE9An40XzDUDaWdGsEyzn5egnYh8y-ygpky1VihACCW7tMyC_4RgGYRD9RjgvK0eVhnp87fJYWEaphvz9u-SE2R49p-VBDgP51dkUhB7aKY7YDoFw=w408-h306-k-no"
+},
+
+{
+    "id": 46366710,
+    "name": "U Bein Bridge",
+    "location": { "lat":21.8915774, "lng":96.055245 },
+    "description": "U Bein Bridge is the world’s longest teakwood bridge, stretching across Taungthaman Lake. ",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np7vjaBnHYtbFcUzBl5sFdZx9IswLlGVOKkneUWqBwLmkPPbhTLXqs63_Z4qfpJZvJBnFavaNT4zYcnhxfE5IampBYBAdw6vC2ZqpFPDDdnGoyeDipHA1-CHiQA4nL7OO1GsbUfdQ=w426-h240-k-no"
+},
+{
+    "id": 202929653,
+    "name": "Mahamuni Buddha Temple",
+    "location": { "lat":21.9519202, "lng":96.0759877 },
+    "description": "Revered temple complex & pilgrimage site featuring the sizable Mahamuni Buddha statue on a throne.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqX1gk1Yk1JHjv1FqfXGmJHk1e8Yc0Fv5KXGz3y7y5b6UOa8Fz8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z=w408-h306-k-no"
+},
+{
+    "id": 596328844,
+    "name": "Mandalay Hill",
+    "location": { "lat":22.0123368, "lng":96.0982115 },
+    "description": "A Buddhist pilgrimage site, this prominent hill features ample pagodas, monasteries & scenic views.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npClH3KJqOkeTJnm5PMlReLf_l7yCGVR-F5M1RD_7tm1yMiRvy-6gYKgEivjGrcgC9i6SuWpdWgS5yOu2OC33LOO2X7j5FunGEJgH5_uta3RmfLB-5GH1805fk4DIo9KuCTRhUZ=w408-h272-k-no"
+},
+
+{
+    "id": 220214181,
+    "name": "Ananda Temple",
+    "location": { "lat":21.1708769, "lng":94.8650021 },
+    "description": "Huge, stately Buddhist temple built in 1105, with notable architecture, sculptures & paintings.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqQb4VsQhyfDU9gcx0bHcXEq2fiarCqpL6c_v-HpPd6N_UhjHi4_sJlbcRXybJH0jtzcfSj7vR8HkMfydQyaMW1F3pQhVfgSbRQap7aViqL9mNRYNF0bd3kF9cgMXg1xOhDNjw-=w408-h306-k-no"
+},
+{
+    "id": 268276067,
+    "name": "Shwezigon Pagoda",
+    "location": { "lat":21.1944908, "lng":94.8860476 },
+    "description": "11th-century Buddhist pagoda featuring a monumental stupa covered in gold leaf & intricate carvings.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nplOuIhNmsKyFidZoY8hR5WG5ihmHj56kWwBJG2tD1XIUHySUPUlur5iiO_Z6ykCIepicie3i-VC67ZJ02-B2VMFtvWLwy2R3FecKPaXbzqdgkDrnK0o9yML-yn3FBPwA_CrJ_3_Q=w408-h306-k-no"
+},
+{
+    "id": 237941123,
+    "name": "Dhammayangyi Temple",
+    "location": { "lat":21.1620997, "lng":94.8700678 },
+    "description": "Imposing temple built in the 12th century, featuring shrines, Buddha statues & walkways.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nquBCaPQ7Vk8D8idLIXDXB9eL16T--PxeZPNu-oQ6UL1KmZ_0ohn60ThZnT2HU5uua8n_xub5F9E8dxcmyg-6w23ssHwKAp9du3ahotQW4AKTHOQu1Ah41iMb1xhYkBYbLNUaq4=w408-h272-k-no"
+},
+{
+    "id": 101989079,
+    "name": "That Bin Nyu Temple",
+    "location": { "lat":21.1687928, "lng":94.8601245 },
+    "description": "Towering 12th-century Buddhist temple, 60 m. tall, with ornate details & receding terraces.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrCjP51c9aRfhcXF_o8AuQaW8xzeoYgW7YdCGjp4v4ynT2zyk86s44XYiSRdU1ZJOZl3yk1NbV0PGFpu8M5SHa2HzgXeeN27nBU7a1p3hN-aj_WVU_WglI6oVyiMCbnY8C1XGWV=w408-h305-k-no"
+},
+{
+    "id": 161797456,
+    "name": "Sulamani Temple",
+    "location": { "lat":21.1649493, "lng":94.8788484 },
+    "description": "Stately, 12th-century stone Buddhist temple with scenic views, elaborate carvings & statues.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noYxTry49hcTnqyAGrCNwMR_MRUlFhMsAwHhoCgq4j-y5dv80C8nxdhribDDNtWg2OR2u6I7e6hToEfkZoMy5Mn-sDG-Ald_F-RcoPqggXW5X2xRt3mmHZprTaYcWfo7uGFXBmY=w408-h306-k-no"
+},
+{
+    "id": 161764112,
+    "name": "Bagan Golden Palace",
+    "location": { "lat":21.1731351, "lng":94.8600265 },
+    "description": "Arimadanapura Palace, also called the Bagan Golden Palace, is a royal palace in Bagan, Myanmar.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr2I8jJ17zE-a9CAMIiH10rhASwR9AqqGZDuchkiX0kgRFsxPQtY-s-xA5MYrBKZrNdKsJ01CbbUUeNexvWPxRHFFADbPW26WVigz7vo5Alq0JjVK8MnewXLEr5ylEUYNqRVKdPjA=w408-h306-k-no"
+},
+
+{
+    "id": 5661748,
+    "name": "Inle Lake",
+    "location": { "lat":20.5334654, "lng":96.8233518 },
+    "description": "Large lake & cultural destination with quaint floating villages, monasteries & handicrafts.",
+    "photo_url": "https://th.bing.com/th/id/R.ae360c856b9b1098021a09daf3ef149b?rik=xom8iY858EPkcQ&riu=http%3a%2f%2fwww.indochinatigertravel.com%2fuploads%2farea%2fAREA_2015_06_28_1435491789.jpg&ehk=Tiso%2b8W0Y7s5mOiDufc0KthvpTcdJBPIzTrO6WkhwO8%3d&risl=&pid=ImgRaw&r=0"
+},
+{
+    "id": 227139747,
+    "name": "Phaung Daw Oo Pagoda",
+    "location": { "lat":20.4750977, "lng":96.8898916 },
+    "description": "A revered Buddhist pagoda located on Inle Lake, known for its five sacred Buddha images and annual boat festival.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noR9l_uSG4pLsM2CnEEFjQ4fYETse6xgOjphtqQQHbczNw2dOSq5jtOnprftgG0AXtNX7bY1k80rEMpnQwALK77KtKlFojF65f4aIJLJUngRhiRE5CTw0ynrnryGW8SYU9aCf8=w408-h271-k-no"
+},
+{
+    "id": 4672145789,
+    "name": "National Kandawgyi Gardens",
+    "location": { "lat":22.0340781, "lng":96.3922955 },
+    "description": "Modeled after English gardens such as Kew, this Alpine garden features woods, lakes & many orchids.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npA2l3TD5Ae3pWLy1QWzX70EfRPxnbs07nrXNotB5_D2eNqQQPSGGmVcZHziycNpsLtyQxzbjOirwl0QSPbOCnDjLlaM1890RPqSWOa0YUeaTTGrS6bsGF_N9Yjj06RLvCyGNMYdQ=w408-h306-k-no"
+},
+{
+    "id": 233299691,
+    "name": "Ngapali Beach",
+    "location": { "lat":18.4171653, "lng":94.242008 },
+    "description": "Sandy, palm-tree-lined beach offering swimming & sunbathing, plus views of the local fishing boats.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noobN6rJnD0SA9vhqjvht3smfA13FVqMhf3apc-tufKuKhZJNngGucZxuXFC4NLJLTBvfxaados4RhVvCLJxYvI3hgFf1BMdMe9gyVXWyxDzR-__c2z4SSpqsiDBZykRRdsUYyR=w414-h240-k-no"
+},
+{
+    "id": 12409041529,
+    "name": "Shwe Oo Min Monastery",
+    "location": { "lat":20.6267774, "lng":96.5419934 },
+    "description": "Shwe Oo Min Paya, popularly called Buddha Cave, is a Buddhist cave complex located close to the city of Kalaw in Myanmar.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqBMWT7lvvUAxd-d8gCAtZOwrhFIBC9x8cB-lJOpi7XV88ahM0xWRrkgz9Lf7mZPXFOjEdLfb49S3d1JfFZegvIteW-S7ldk18kriCu1FqG07KOtJjTw9oiHHQLSbZ7f5nR2qS8NA=w408-h306-k-no"
+},
+{
+    "id": 5672796397,
+    "name": "Mya Sein Taung Pagoda",
+    "location": { "lat":20.7870717, "lng":97.0201445 },
+    "description": "Mya Sein Taung Pagoda is a Buddhist temple in Taunggyi Township, Taunggyi District, Shan State.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqqDuIENHGf8J-fuyqz8JHkPamRRMq5XoSLnyEuUyW0BSvuUNTp-vds8pTGzH5HwXfY4idjp8_9w8AdNUuVeGVtOs_gtqOJDShR-8gXz1gHlIU0bKWrSB2pLa6Jh4kH9WQxiyWl=w408-h271-k-no"
+},
+{
+    "id": 1194201802,
+    "name": "Pindaya Caves",
+    "location": { "lat":20.9255071, "lng":96.6296273 },
+    "description": "A series of limestone caves housing thousands of Buddha images, with a serene atmosphere and scenic views.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npPDiMRjYxlFM9dw8lso-yQ9-TYywDwgCcWmWnUKo9526zSHW_hjcuK9Rz3o5YRdwirzm_hiju8K2ki9VIzazAg5MTkKRyn-MvP6ZnDZKJ_knkDa6q7A9AY80ajApJ5OBaYkE0=w408-h306-k-no"
+},
+{
+    "id": 667347741,
+    "name": "Kyaiktiyo Pagoda - Golden Rock",
+    "location": { "lat":17.4815956, "lng":97.0955801 },
+    "description": "Small Buddhist pagoda sitting on top of a large granite boulder covered with gold leaves.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noqFmhiPdDpZ7iG5GQrfKzsicYqqRmLD6s3BAPD9SLuOH5RF7_tryK8V4C8uwwTPl8wC14AbtoBA87PeRUJUxMIUJKHZx2rnPN8Hyry9jJqfgeWYELt9iO-KXjS36iK1bMfqoZi6Q=w408-h544-k-no"
+},
+{
+    "id": 8524369823,
+    "name": "Mount Kyar Inn",
+    "location": { "lat":16.884139, "lng":97.6098356 },
+    "description": "Mount Kyar Inn, located in the enchanting town of Hpa-An, is a must-visit destination for tourists seeking a blend of natural beauty and cultural immersion.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np01giot2okBYn-Farz0-O6USybkAg9q7XgSjaJVts00Caucj9qQD44OUn7KhHkuiO6TP2Ap0WzLT0LF4KJJMfjdYz1eWr2h_6auKfaHdGgB3JtaXgbW72sgWZQVcjNGliKDisz=w408-h306-k-no"
+},
+{
+    "id": 597397918,
+    "name": "Mt Popa",
+    "location": { "lat":20.9207462, "lng":95.2327484 },
+    "description": "Volcanic peak & site of the iconic, gilded Popa Taung Kalat monastery perched on a rock spur.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noK1vM0s3TvgTScCEdqx9_0nmAZ24oPkeG9fKhjQXvuRNU1QXeqDud1gt6JIz_a2rE3hhou92QSgJBtjcxAmq-BIoutZOvbGEh_PzXwEu1OcE0DrCBMA2K4NaG0MVDu7oqNTTtE=w426-h240-k-no"
+},
+{
+    "id": 3917523404,
+    "name": "Kyaikkhami Yae Le Pagoda",
+    "location": { "lat":16.0819538, "lng":97.5559737 },
+    "description": "Kyaikkhami Pagoda (Burmese: ကျိုက္ခမီဘုရား) is a prominent Buddhist pagoda located in Kyaikkhami, Mon State, Myanmar.",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np7yyMmLypCKJO1CjXaHkz6UKpi6EhEeossJLrGxmAoI5DahkWWpaiR0AIu_oyrPp1xHsm7vmfnLUgBn5xZ1UwDbAzXag7LEjTIFGsVMmd52hVqdL1vsMQ18dSoJNZvxgdmPmNwhg=w408-h306-k-no"
 }
-
-
-
 ]
